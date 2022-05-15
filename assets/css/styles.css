@@ -200,6 +200,7 @@ img {
   column-gap: .5rem;
   font-size: var(--smaller-font-size);
   align-self: flex-end;
+  flex-wrap: wrap;
 }
 
 /* Animate ghost */
