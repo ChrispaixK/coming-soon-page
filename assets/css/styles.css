@@ -1,18 +1,17 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&family=Courgette&display=swap');
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(38, 69%, 59%);
+  --first-color: #ffefb9;
   --text-color: hsl(38, 8%, 8%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Space Grotesk', sans-serif;
+  --body-font: 'Comfortaa', sans-serif;
   --biggest-font-size: 2.375rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
@@ -74,7 +73,9 @@ img {
   left: 0;
   z-index: 100;
 }
-
+.rotate{
+  color: #ffbc02;
+}
 .nav {
   height: var(--header-height);
   display: flex;
@@ -93,7 +94,8 @@ img {
 }
 
 .nav__toggle {
-  font-size: 1.25rem;
+  margin-top: 20px;
+  font-size: 2rem;
   cursor: pointer;
 }
 
